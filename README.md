@@ -1,102 +1,102 @@
 # 📚 Study Timer App
 
-간단한 포모도로/집중 타이머 애플리케이션입니다. 공부 시간을 추적하고 날짜별로 누적 기록을 관리할 수 있습니다.
+A simple Pomodoro/focus timer application for tracking study time and managing cumulative records by date.
 
-## ✨ 주요 기능
+## ✨ Features
 
-- 🕐 실시간 타이머 (시작/정지/저장/초기화)
-- 📊 날짜별 누적 시간 기록
-- 🌍 한국어/영어 다국어 지원
-- 💾 브라우저 로컬 스토리지에 데이터 저장
-- 📱 반응형 디자인
+- 🕐 Real-time timer (Start/Stop/Save/Reset)
+- 📊 Daily cumulative time tracking
+- 🌍 Korean/English multilingual support
+- 💾 Data stored in browser localStorage
+- 📱 Responsive design
 
-## 🚀 배포 방법
+## 🚀 Deployment Guide
 
-### 1. GitHub 저장소 생성
-- GitHub에서 새 저장소를 생성합니다
-- 저장소 이름을 기억해두세요 (예: `timer-app`)
+### 1. Create GitHub Repository
+- Create a new repository on GitHub
+- Remember the repository name (e.g., `StudyTimerApp`)
 
-### 2. 로컬 저장소 초기화 및 푸시
+### 2. Initialize Local Repository and Push
 ```bash
-# Git 저장소 초기화
+# Initialize Git repository
 git init
 
-# 파일 추가
+# Add all files
 git add .
 
-# 첫 커밋
+# First commit
 git commit -m "Initial commit"
 
-# 원격 저장소 추가 (YOUR_USERNAME과 REPOSITORY_NAME을 실제 값으로 변경)
+# Add remote repository (replace YOUR_USERNAME and REPOSITORY_NAME with actual values)
 git remote add origin https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
 
-# 메인 브랜치로 푸시
+# Push to main branch
 git branch -M main
 git push -u origin main
 ```
 
-### 3. package.json 수정
-`package.json` 파일의 `homepage` 필드를 실제 GitHub 사용자명과 저장소명으로 수정하세요:
+### 3. Update package.json
+Modify the `homepage` field in `package.json` with your actual GitHub username and repository name:
 
 ```json
 "homepage": "https://YOUR_USERNAME.github.io/REPOSITORY_NAME"
 ```
 
-### 4. 의존성 설치 및 빌드
+### 4. Install Dependencies and Deploy
 ```bash
-# 의존성 설치
+# Install dependencies
 npm install
 
-# 프로덕션 빌드
+# Build for production
 npm run build
 
-# GitHub Pages에 배포
+# Deploy to GitHub Pages
 npm run deploy
 ```
 
-### 5. GitHub Pages 설정
-- GitHub 저장소 설정 → Pages
-- Source를 "Deploy from a branch"로 설정
-- Branch를 "gh-pages"로 설정
-- Save 클릭
+### 5. GitHub Pages Settings
+- Go to GitHub repository → Settings → Pages
+- Set Source to "Deploy from a branch"
+- Set Branch to "gh-pages"
+- Click Save
 
-## 🛠️ 개발 환경 설정
+## 🛠️ Development Setup
 
 ```bash
-# 의존성 설치
+# Install dependencies
 npm install
 
-# 개발 서버 실행
+# Start development server
 npm start
 
-# 프로덕션 빌드
+# Build for production
 npm run build
 ```
 
-## 📁 프로젝트 구조
+## 📁 Project Structure
 
 ```
 TimerApp/
 ├── public/
 │   └── index.html
 ├── src/
-│   ├── App.js          # 메인 타이머 컴포넌트
+│   ├── App.js          # Main timer component
 │   ├── App.css         # Tailwind CSS
-│   ├── index.js        # 앱 진입점
-│   └── index.css       # 기본 스타일
+│   ├── index.js        # App entry point
+│   └── index.css       # Base styles
 ├── package.json
 ├── tailwind.config.js
 ├── postcss.config.js
 └── README.md
 ```
 
-## 🎨 기술 스택
+## 🎨 Tech Stack
 
 - **Frontend**: React 18
 - **Styling**: Tailwind CSS
 - **Build Tool**: Create React App
 - **Deployment**: GitHub Pages
 
-## �� 라이선스
+## 📝 License
 
 MIT License
