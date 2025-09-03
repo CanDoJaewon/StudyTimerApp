@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CanDoJaewon/StudyTimerApp.git/static/css/main.ce319625.css",
+    "main.js": "/CanDoJaewon/StudyTimerApp.git/static/js/main.a59071ed.js",
+    "index.html": "/CanDoJaewon/StudyTimerApp.git/index.html",
+    "main.ce319625.css.map": "/CanDoJaewon/StudyTimerApp.git/static/css/main.ce319625.css.map",
+    "main.a59071ed.js.map": "/CanDoJaewon/StudyTimerApp.git/static/js/main.a59071ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce319625.css",
+    "static/js/main.a59071ed.js"
+  ]
+}
